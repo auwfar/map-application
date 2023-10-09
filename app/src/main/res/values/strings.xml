@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Map Application</string>
+    <string name="title_home">Home</string>
+    <string name="title_form">Form</string>
+    <string name="title_maps">Peta</string>
+    <string name="title_welcome_to_maps_application">Selamat Datang di Aplikasi Map</string>
+    <string name="title_fill_your_data">Isi Data Dirimu</string>
+    <string name="hint_name">Nama</string>
+    <string name="hint_hobby">Hobi</string>
+</resources>

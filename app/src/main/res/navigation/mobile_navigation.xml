@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.auwfar.mapapplication.fragments.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_form"
+        android:name="com.auwfar.mapapplication.fragments.FormFragment"
+        android:label="@string/title_form"
+        tools:layout="@layout/fragment_form" />
+
+    <fragment
+        android:id="@+id/navigation_maps"
+        android:name="com.auwfar.mapapplication.fragments.MapsFragment"
+        android:label="@string/title_maps"
+        tools:layout="@layout/fragment_maps" />
+</navigation>
